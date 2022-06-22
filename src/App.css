@@ -27,7 +27,7 @@ html,body {
 
 .countdown-section {
   height: 780px;
-  background-image: url("../public/environment.avif");
+  background-image: url("../public/environment.jpeg");
   filter: saturate(1.5);
   color: #fff;
   overflow-x: hidden;
