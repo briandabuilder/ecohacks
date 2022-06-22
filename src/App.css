@@ -1,0 +1,513 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+    overflow-x: hidden; 
+}
+
+.colored-section {
+  background-color: #A7E1A7;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar-section {
+  height: 125px;
+}
+
+.home-section {
+  height: 780px;
+}
+
+.feature-section {
+  height: 630px;
+}
+
+.countdown-section {
+  height: 780px;
+  background-image: url("../public/environment.avif");
+  filter: saturate(1.5);
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.sponsor-section {
+  height: 900px;
+}
+
+.schedule-section {
+  height: 900px;
+}
+
+.faq-section {
+  height: 1100px;
+}
+
+.footer-section {
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* NAVBAR START */
+
+nav {
+  align-items: center;
+  display: flex inline-block;
+  justify-content: space-around;
+  margin-left: 500px;
+}
+
+.navbar-title {
+  color: #90745E;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+  position: relative;
+  left: 150px;
+  top: 25px;
+}
+
+a {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.75rem;
+  position: relative;;
+  left: 75px;
+  bottom: 45px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin-left: 25px;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  background-color: #90745E;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #90745E;
+}
+
+.normal-item {
+  color: #90745E;
+}
+
+.normal-item:hover:after {
+  width: 100%;
+}
+
+.join-button {
+  border: 2px solid #90745E;
+  color: #90745E;
+}
+
+/* NAVBAR END */
+
+/* HOME START */
+
+.first-slide-image {
+  position: relative;
+  left: 300px;
+  margin-top: 100px;
+}
+
+.first-slide-text {
+  color: #90745E;
+  position: absolute;
+  left: 920px;
+  top: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.first-slide-title {
+  font-size: 7rem;
+}
+
+.first-slide-description {
+  font-size: 2.5rem;
+  text-align: center;
+  position: absolute;
+
+}
+
+/* HOME END */
+
+/* FEATURES START */
+
+.plant-icon {
+  height: 225px;
+  width: 225px;
+  position: absolute;
+  left: 8%;
+  margin-top: 80px;
+}
+
+.computer-icon {
+  height: 305px;
+  width: 305px;
+  position: absolute;
+  left: 39.5%;
+  margin-top: 45px;
+}
+
+.team-icon {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 72%;
+  margin-top: 65px;
+}
+
+.feature-title {
+  position: absolute;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  margin-top: 320px;
+}
+
+.feature-text {
+    position: absolute;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 430px;
+}
+
+.first-title {
+  left: 120px;
+}
+
+.first-feature-text {
+  left: 50px;
+}
+
+.second-title {
+  left: 630px;
+}
+
+.second-feature-text {
+  left: 530px;
+}
+
+.third-title {
+  left: 1070px;
+}
+
+.third-feature-text {
+  left: 1035px;
+}
+
+/* FEATURES END */
+
+/* COUNTDOWN START */
+
+.countdown-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 7rem;
+  margin-top: 40px;
+}
+
+.prev-next-button {
+  position: absolute;
+  transform: scale(2.5);
+}
+
+.previous-button {
+  position: absolute;
+  left: -20px;
+}
+
+.next-button {
+  position: absolute;
+  left: 1250px;
+}
+
+.date-object {
+  position: inherit;
+  left: 150px;
+  bottom: -20px;
+}
+
+.date-title {
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  font-size: 5.5rem;
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 220px;
+  z-index: 1;
+  position: relative;
+}
+
+.first-highlight {
+  position: relative;
+  right: 1140px;
+  top: -20px;
+  height: 520px;
+  width: 350px;
+}
+
+.second-highlight {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+  height: 520px;
+  width: 400px;
+}
+
+.third-highlight {
+  position: absolute;
+  left: 510px;
+  top: 20px;
+  height: 520px;
+  width: 450px;
+}
+
+.fourth-highlight {
+  position: absolute;
+  left: 790px;
+  top: 20px;
+  height: 520px;
+  width: 500px;
+}
+
+.countdown-timer {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  position: absolute;
+  left: 80px;
+  margin-top: 100px;
+}
+
+#days, #hours, #minutes, #seconds {
+  font-size: 8rem;
+  display: inline-block;
+  padding-left: 200px;
+}
+
+
+.countdown-event-title {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 9rem;
+  margin-top: 177px;
+  position: relative;
+  top: -100px;
+}
+
+.countdown-event-attribute {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 6rem;
+  position: relative;
+  top: -80px;
+}
+
+.register-button {
+  position: relative;
+  top: -85px;
+  left: -20px;
+  border: 2px solid #fff;
+}
+
+/* COUNTDOWN END */
+/* SPONSORS START */
+
+
+.tier {
+  position: absolute;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  padding-top: 150px;
+  left: 37%;
+}
+
+.silver-tier {
+  padding-top: 400px;
+}
+
+.bronze-tier {
+  padding-top: 650px;
+}
+
+/* SPONSORS END */
+/* SCHEDULE START */
+
+.schedule-title {
+  font-family: 'Amatic SC', cursive; 
+  color: #fff;
+  font-size: 6rem;
+  padding-top: 20px;
+}
+
+.timeline {
+  border-left: 20px solid #fff;
+  border-radius: 16px;
+  height: 700px;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+}
+
+.dot {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.event-title {
+  position: absolute;
+  color: #fff;
+  font-family: 'Amatic SC', cursive; 
+  font-size: 4.5rem;
+}
+
+.event-one {
+  position: relative;
+  left: 52%;
+  top: 10%;
+}
+
+.first-event-title {
+  position: relative;
+  left: 230px;
+  top: -57px;
+}
+
+.event-two {
+  position: relative;
+  left: 35%;
+  top: 10%;
+}
+
+.second-event-title {
+  position: relative;
+  left: -210px;
+  top: -57px;
+}
+
+.event-three {
+  position: relative;
+  left: 52%;
+  top: 11%;
+}
+
+.third-event-title {
+  position: relative;
+  left: 230px;
+  top: -57px;
+}
+
+.event-four {
+  position: relative;
+  left: 35%;
+  top: 12%;
+}
+
+.fourth-event-title {
+  position: relative;
+  left: -230px;
+  top: -57px;
+}
+
+.event-five {
+  position: relative;
+  left: 52%;
+  top: 15%;
+}
+
+.fifth-event-title {
+  position: relative;
+  left: 230px;
+  top: -57px;
+}
+
+
+/* SCHEDULE END */
+/* FAQ START */
+
+.faq-title {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  padding-top: 50px;
+}
+
+.one-third, .two-thirds, .three-thirds {
+  display: flex;
+}
+
+.question-text {
+  font-size: 3rem;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.answer-text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 1.25rem;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.three-thirds {
+  position: absolute;
+  left: 15%;
+}
+
+/* FAQ END */
+/* FOOTER START */
+
+.facebook-logo, .instagram-logo, .discord-logo {
+  height: 75px;
+  width: 75px;
+  margin-left: 100px;
+}
+
+.facebook-logo {
+  position: absolute;
+  margin-top: 150px;
+  left: 31%;
+}
+
+.instagram-logo {
+  position: relative;
+  margin-top: 150px;
+  left: 41%;
+}
+
+.discord-logo {
+  position: relative;
+  margin-top: 150px;
+  left: 39%;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5rem;
+  position: relative;
+  bottom: 200px;
+  left: 44%;
+}
+
+
+/* FOOTER END */
