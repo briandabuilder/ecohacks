@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -9,19 +8,21 @@ import Schedule from './components/Schedule';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
+import Container from "react-bootstrap/Container";
+
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Features />
-      <Countdown />
-      <Sponsors />
-      <Schedule />
-      <FAQ />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Home />
+            <Features />
+            <Countdown />
+            <Schedule />
+            <FAQ />
+            <Sponsors />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
