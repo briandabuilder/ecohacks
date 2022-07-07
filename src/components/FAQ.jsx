@@ -32,9 +32,11 @@ function FAQ() {
         }];
 
     return (
-        <div id="faq" className="p-2">
+        <div id="faq" className="py-5 my-5">
+            <span><br /></span>
+
             <Container>
-                <Card className="shadow my-2 mx-4">
+                <Card className="shadow my-5 mx-4">
                     <Card.Header className="p-4 d-flex justify-content-center">
                         <h6 className="m-0"  style={{ color: "#90745E", fontFamily: "Amatic SC, cursive", fontSize: "3rem", textShadow: "0 0 25px #90745E" }}>
                             Frequently Asked Questions
@@ -65,6 +67,9 @@ function FAQ() {
                     </Card.Body>
                 </Card>
             </Container>
+
+            <span><br /></span>
+
         </div>
     );
 }

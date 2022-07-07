@@ -7,6 +7,7 @@ import Sponsors from './components/Sponsors';
 import Schedule from './components/Schedule';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';
 
 import Container from "react-bootstrap/Container";
 
@@ -21,6 +22,7 @@ function App() {
             <FAQ />
             <Sponsors />
             <Footer />
+            <ScrollButton />
         </div>
     );
 }

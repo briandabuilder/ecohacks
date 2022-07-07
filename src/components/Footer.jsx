@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 function Footer() {
     return (
-        <div id="footer" className="pb-4">
+        <div id="footer" className="py-4">
             <div className="d-flex flex-column align-items-center">
                 <div className="m-1" style={{ color: "#FFF", fontFamily: "Amatic SC, cursive", fontSize: "4rem"}}>
                     EcoHacks

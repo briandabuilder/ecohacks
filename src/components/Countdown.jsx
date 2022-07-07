@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../index.css';
 
+import FadeIn from "react-fade-in";
+
 function Countdown() {
     const [deadline, setDeadline] = useState(new Date("9/2/2022"));
     const [day, setDay] = useState(0);
@@ -35,7 +37,7 @@ function Countdown() {
                   let times = { "Days": day, "Hours": hour, "Minutes": minute, "Seconds": second };
                   for (let time in times) {
                       fields.push(
-                          <div className="d-flex flex-column align-items-center">
+                          <FadeIn className="d-flex flex-column align-items-center">
                               <div style={{ color: "#90745E", fontFamily: "Amatic SC, cursive", fontSize: "6rem" }}>
                                   {String(times[time]).padStart(2, '0')}
                               </div>
@@ -47,7 +49,7 @@ function Countdown() {
                               <div style={{ position: "relative", bottom: "1.5em", color: "#90745E", fontFamily: "Amatic SC, cursive", fontSize: "4rem" }}>
                                   {time}
                               </div>
-                          </div>
+                          </FadeIn>
                       )
                   }
                   return (<>{fields}</>);

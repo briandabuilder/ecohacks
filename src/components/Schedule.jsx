@@ -5,30 +5,46 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function Schedule() {
     const args = [{
-                    title: "Event One Placeholder",
-                    description: "A quick fox jumped over a lazy dog",
-                    time: "9/2 10:00 am"
+                    title: "Opening Ceremony",
+                    description: "Starting the hackathon with a Welcoming introduction to EcoHacks, sponsors, and a talk from a guest speaker.",
+                    time: "9/3 10:00 am - 11:30 am"
                 }, {
-                    title: "Event Two Placeholder",
-                    description: "A lazy dog got jumped over by a quick fox",
-                    time: "9/2 12:00 pm"
+                    title: "Workshop: Web Development",
+                    description: "An introduction to creating a fully-static & fully-responsive website.",
+                    time: "9/3 5 pm - 6 pm"
                 }, {
-                    title: "Event Three Placeholder",
-                    description: "The quick fox don't want to jump over the lazy dog anymore",
-                    time: "9/3 12:00 pm"
+                    title: "Guest Speaker: TBD",
+                    description: "Something awesome.",
+                    time: "9/4 12:30 pm - 1:30 pm"
                 }, {
-                    title: "Event Four Placeholder",
-                    description: "The dog don't want to get jumped by a quick fox anymore",
-                    time: "9/4 12:00 pm"
+                    title: "Workshop: IOS App Development",
+                    description: "An introduction to how to start an IOS application using swift.",
+                    time: "9/4 1:30 pm - 2:30 pm"
                 }, {
-                    title: "Event Five Placeholder",
-                    description: "The dog and the fox lived happily ever after",
-                    time: "9/5 8:00 pm"
+                    title: "Project Deadline",
+                    description: "Final time stamp to submit projects",
+                    time: "9/5 2:00 pm"
+                }, {
+                    title: "Workshop: Machine Learning",
+                    description: "An introduction to the fundamentals of Machine Learning, including both theoretical and practical applications.",
+                    time: "9/5 2:00 pm - 3:00 pm"
+                }, {
+                    title: "Closing Ceremony",
+                    description: "Annoucing the winners, prizes, and thanks.",
+                    time: "9/5 3:00 pm - 3:30 pm"
                 }
                 ]
 
     return (
         <div id="schedule" className="my-5 py-5">
+            <div className="text-center mb-5" style={{ color: "#90745E"}}>
+                <div className="title-font" style={{ fontSize: "4em", textShadow: "0 0 25px #90745E" }}>
+                    Event Schedule
+                </div>
+                <div className="text-font">
+                    (Time in PST)
+                </div>
+            </div>
             <VerticalTimeline lineColor="#a7e1a7">
                 {(() => {
                     let fields = [];
