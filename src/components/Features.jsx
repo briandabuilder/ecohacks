@@ -11,11 +11,12 @@ function Features() {
               <Card style={{ width: '18rem' }} className="border-0 m-5">
                   <Card.Img variant="top" src="plant-icon.svg" style={{ maxHeight: "17em" }}/>
                   <Card.Body className="d-flex flex-column align-items-center mt-4">
-                      <Card.Title className="title-font">Preservate.</Card.Title>
+                      <Card.Title className="title-font">Conglomerate.</Card.Title>
                       <Card.Text className="text-font" style={{textAlign: "center" }}>
-                          The environment is our economy.
-                          Join us in preserving our planet
-                          and maintaining our climate.
+                        The environment is our economy. 
+                        Join us and work as a community 
+                        to preserve our planet and 
+                        maintain our climate.
                       </Card.Text>
                   </Card.Body>
               </Card>
