@@ -9,8 +9,6 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ScrollButton from './components/ScrollButton';
 
-import Container from "react-bootstrap/Container";
-
 function App() {
     return (
         <div className="App">

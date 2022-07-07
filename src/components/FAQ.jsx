@@ -4,6 +4,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 
+import FadeIn from "react-fade-in";
+
 function FAQ() {
     const args = [{
             question: "What is a hackathon?",

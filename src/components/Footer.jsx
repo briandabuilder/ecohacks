@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BsFacebook } from "react-icons/bs";
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -13,10 +13,21 @@ function Footer() {
                     EcoHacks
                 </div>
                 <div className="d-flex flex-row justify-content-center">
-                    <BsFacebook className="mx-1" size={"1.8em"} style={{ color: "#90745E" }} />
-                    <AiFillInstagram className="mx-1" size={"2em"} style={{ color: "#90745E" }} />
-                    <FaDiscord className="mx-1" size={"2em"} style={{ color: "#90745E" }} />
-                    <MdEmail className="mx-1" size={"2em"} style={{ color: "#90745E" }} />
+                    <a href="https://www.facebook.com/profile.php?id=100083192914818" style={{ fontSize: "1.8em" }}>
+                        <BsFacebook className="mx-1" style={{ color: "#90745E" }} />
+                    </a>
+                    <a href="https://www.instagram.com/ecohacks22/" style={{ fontSize: "2em" }}>
+                        <AiFillInstagram className="mx-1" style={{ color: "#90745E" }} />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCGhHwq815eUXINHQLmjH9QQ" style={{ fontSize: "2em" }}>
+                        <AiFillYoutube className="mx-1" style={{ color: "#90745E" }} />
+                    </a>
+                    <a href="https://discord.gg/RAeyhxrppn" style={{ fontSize: "2em" }}>
+                        <FaDiscord className="mx-1" style={{ color: "#90745E" }} />
+                    </a>
+                    <a href="eco.hacks.22@gmail.com" style={{fontSize:"2em"}}>
+                        <MdEmail className="mx-1" style={{ color: "#90745E" }} />
+                    </a>
                 </div>
                 <div className="mt-3" style={{ color: "#FFF", fontFamily: "Amatic SC, cursive", fontSize: "1.5rem" }}>
                     &copy;2022 Not all rights are reserved
