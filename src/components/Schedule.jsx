@@ -31,7 +31,7 @@ function Schedule() {
                 }, {
                     title: "Closing Ceremony",
                     description: "Annoucing the winners, prizes, and thanks.",
-                    time: "9/5 3:00 pm - 3:30 pm"
+                    time: "9/5 5:00 pm - 5:30 pm"
                 }
                 ]
 
