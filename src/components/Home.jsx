@@ -69,7 +69,7 @@ function Home() {
 
                           <Col className="order-lg-2 mt-5 px-3" lg="6">
                               <div className="pr-lg-5">
-                                  <h3 className="title-font">Calling All High School Developers!</h3>
+                                  <h3 className="title-font">Calling All Developers!</h3>
                                   <p className="text-font mt-3">
                                       With the deterioration of the ecosystem, the next
                                       generation of developers needs to step up to the plate

@@ -13,8 +13,8 @@ function Schedule() {
                     description: "An introduction to creating a fully-static & fully-responsive website.",
                     time: "9/3 5 pm - 6 pm"
                 }, {
-                    title: "Guest Speaker: TBD",
-                    description: "Something awesome.",
+                    title: "Guest Speaker: Dr. Charlie Brucker, PhD in Computer Science from Cornell University",
+                    description: "Countering global warming and sea level rise. Pursuing innovative and technological fixes to save the environment.",
                     time: "9/4 12:30 pm - 1:30 pm"
                 }, {
                     title: "Workshop: IOS App Development",
@@ -42,7 +42,7 @@ function Schedule() {
                     Event Schedule
                 </div>
                 <div className="text-font">
-                    (Time in PST)
+                    (Time in PDT)
                 </div>
             </div>
             <VerticalTimeline lineColor="#a7e1a7">
