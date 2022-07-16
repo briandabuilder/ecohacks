@@ -12,12 +12,15 @@ function Sponsors() {
                 <FadeIn className="d-flex flex-row flex-wrap justify-content-around mb-3">
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
+                        alt="..."
                     />
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
+                        alt="..."
                     />
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
+                        alt="..."
                     />
                 </FadeIn>
 
@@ -28,6 +31,7 @@ function Sponsors() {
                 <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
+                        alt="..."
                     />
                 </FadeIn>
 
@@ -38,6 +42,7 @@ function Sponsors() {
                 <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
+                        alt="..."
                     />
                 </FadeIn>
             </div>

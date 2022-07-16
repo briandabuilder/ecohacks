@@ -15,7 +15,7 @@ function Home() {
                         alt="..."
                         className="img-fluid shadow shadow-lg blur"
                         style={{ width: "100vw", maxHeight: "25em", objectFit: "cover", backgroundPosition: "center" }}
-                        src={require("../images/home-1.jfif")}
+                        src="https://images.unsplash.com/photo-1617540021016-72023b487e99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
                     />
 
                   <Carousel.Caption id="headline" className="border" style={{color: "#fff", textShadow: "0 0 25px #FFF", margin:"auto", borderRadius: "1em/1em"}}>
@@ -35,7 +35,7 @@ function Home() {
                                   alt="..."
                                   className="img-fluid floating shadow shadow-lg"
                                   style={{ width: "100vw", maxHeight: "50vh", objectFit: "cover", borderRadius: "4em/4em" }}
-                                  src={require("../images/home-2.jfif")}
+                  src="https://images.unsplash.com/photo-1569163139394-de4e5f43e5ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
                               />
                           </Col>
 
@@ -63,7 +63,7 @@ function Home() {
                                   alt="..."
                                   className="img-fluid floating shadow shadow-lg"
                                   style={{ width: "100vw", maxHeight: "50vh", objectFit: "cover", borderRadius: "4em/4em" }}
-                                  src={require("../images/home-3.jfif")}
+                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
                               />
                           </Col>
 
