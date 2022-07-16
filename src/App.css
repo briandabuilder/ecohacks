@@ -108,6 +108,20 @@ a:hover {
 
 /* HOME START */
 
+@media (min-width: 550px){
+  #headline{
+    width: 25em;
+    bottom: 30%;
+  }
+}
+
+@media (max-width: 549px){
+  #headline{
+    width: 90vm;
+    bottom: 30%;
+  }
+}
+
 #carousel {
     background-image: linear-gradient(to bottom right, #A7E1A7, #b2e05c, #2abf68);
 }

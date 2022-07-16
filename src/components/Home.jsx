@@ -14,11 +14,11 @@ function Home() {
                     <img
                         alt="..."
                         className="img-fluid shadow shadow-lg blur"
-                        style={{ width: "100vw", maxHeight: "25em", objectFit: "cover" }}
-                        src="https://images.unsplash.com/photo-1617540021016-72023b487e99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                        style={{ width: "100vw", maxHeight: "25em", objectFit: "cover", backgroundPosition: "center" }}
+                        src={require("../images/home-1.jfif")}
                     />
 
-                  <Carousel.Caption className="border" style={{ color: "#FFF", bottom: "30%", textShadow: "0 0 25px #FFF", width: "25em", margin:"auto", borderRadius: "1em/1em"}}>
+                  <Carousel.Caption id="headline" className="border" style={{color: "#fff", textShadow: "0 0 25px #FFF", margin:"auto", borderRadius: "1em/1em"}}>
                       <h3 className="title-font">Our Mission</h3>
                       <p className="text-font px-3 pt-2">Through EcoHacks, we aim to connect an interest
                           in saving the environment with coding for it.
@@ -35,7 +35,7 @@ function Home() {
                                   alt="..."
                                   className="img-fluid floating shadow shadow-lg"
                                   style={{ width: "100vw", maxHeight: "50vh", objectFit: "cover", borderRadius: "4em/4em" }}
-                                  src="https://images.unsplash.com/photo-1569163139394-de4e5f43e5ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                                  src={require("../images/home-2.jfif")}
                               />
                           </Col>
 
@@ -63,7 +63,7 @@ function Home() {
                                   alt="..."
                                   className="img-fluid floating shadow shadow-lg"
                                   style={{ width: "100vw", maxHeight: "50vh", objectFit: "cover", borderRadius: "4em/4em" }}
-                                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                                  src={require("../images/home-3.jfif")}
                               />
                           </Col>
 
