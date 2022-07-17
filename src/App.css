@@ -123,7 +123,11 @@ a:hover {
 }
 
 #carousel {
-    background-image: linear-gradient(to bottom right, #A7E1A7, #b2e05c, #2abf68);
+  background-image: linear-gradient(to bottom right, #A7E1A7, #b2e05c, #2abf68);
+}
+
+#information {
+  background-image: linear-gradient(to bottom right, #A7E1A7, #b2e05c, #2abf68);
 }
 
 .first-slide-image {
