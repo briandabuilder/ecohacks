@@ -20,7 +20,7 @@ function Navbar() {
 				  <NavbarReact.Collapse aria-controls="basic-navbar-nav">
 					  <Nav className="me-auto d-flex justify-content-between align-items-center">
 						  <a href="#home" class="normal-item p-1 mx-3">Home</a>
-						  <a href="#countdown" class="normal-item p-1 mx-3">Event</a>
+						  <a href="#format" class="normal-item p-1 mx-3">Event</a>
 						  <a href="#schedule" class="normal-item p-1 mx-3">Schedule</a>
 						  <a href="#faq" class="normal-item p-1">FAQ</a>
 						  <a href="#sponsors" class="normal-item p-1 mx-3">Sponsors</a>

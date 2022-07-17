@@ -11,9 +11,9 @@ import FadeIn from "react-fade-in";
 import Container from "react-bootstrap/Container";
 import Badge from "react-bootstrap/Badge";
 
-function Prizes() {
+function Format() {
   return (
-    <div>
+    <div id="format">
       <div className="d-flex flex-column align-items-center my-5">
         <Container>
           <Row className="shadow d-flex m-0 p-0">
@@ -77,4 +77,4 @@ function Prizes() {
   );
 }
 
-export default Prizes;
+export default Format;
