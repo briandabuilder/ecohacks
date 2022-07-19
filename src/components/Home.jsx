@@ -1,10 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-import { Carousel, Col, Row, Container, Badge } from 'react-bootstrap';
-
-import stockOne from "../images/environmental-engineering.jpg";
-
+import { Carousel, Col, Row, Container } from 'react-bootstrap';
 
 function Home() {
   return (

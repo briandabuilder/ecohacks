@@ -5,7 +5,6 @@ import { default as NavbarReact }  from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav';
 
 import { ReactComponent as Logo } from "../images/logo.svg";
-import { FaLeaf } from "react-icons/fa";
 
 function Navbar() {
 	return (
