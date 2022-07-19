@@ -25,7 +25,7 @@ function Footer() {
                     <a href="https://discord.gg/RAeyhxrppn" style={{ fontSize: "2em" }}>
                         <FaDiscord className="mx-1" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="eco.hacks.22@gmail.com" style={{fontSize:"2em"}}>
+                    <a href="mailto:eco.hacks.22@gmail.com" style={{fontSize:"2em"}}>
                         <MdEmail className="mx-1" style={{ color: "#90745E" }} />
                     </a>
                 </div>

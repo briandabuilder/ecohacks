@@ -23,7 +23,7 @@ function Format() {
               </div>
             </Row>
             <Row id="information" className="m-0 p-0">
-              <Col lg={5} className="border p-0">
+              <Row className="border p-0 m-0">
                 <Card className="p-3 border-0 rounded-0" style={{height:"100%"}}>
                   <Card.Title className="title-font px-3">Rules</Card.Title>
                   <Card.Text className="text-font p-3">
@@ -37,38 +37,133 @@ function Format() {
                     Open sourced packages are permitted, but no code should be written prior to the hackathon.
                   </Card.Text>
                 </Card>
-              </Col>
-              <Col lg={7} className="border p-0">
-                <Card className="p-3 border-0 border-bottom rounded-0">
-                  <Card.Title className="title-font px-3">Prizes</Card.Title>
-                  <Card.Text className="text-font p-3">
-                    <Badge bg="secondary">1st Place</Badge>{" "}
-                    $200 cash value <br />
-                    <Badge bg="secondary">2nd Place</Badge>{" "}
-                    $150 cash value <br />
-                    <Badge bg="secondary">3rd Place</Badge>{" "}
-                    $100 cash value <br />
-                    <Badge bg="secondary">Honorable Mentions</Badge>{" "}
-                    $50 cash value <br />
-                    Additional Prizes TBD [Subject to change]
-                  </Card.Text>
-                </Card>
-                <Card className="p-3 border-0 rounded-0">
-                  <Card.Title className="title-font px-3">Judging</Card.Title>
-                  <Card.Text className="text-font p-3">
-                    <Badge bg="secondary">Uniqueness</Badge>{" "}
-                    Is the idea creative and innonative? <br />
-                    <Badge bg="secondary">Design</Badge>{" "}
-                    Is the layout well planned? <br />
-                    <Badge bg="secondary">Viability</Badge>{" "}
-                    Demonstrate a real solution to a real problem? <br />
-                    <Badge bg="secondary">Impact</Badge>{" "}
-                    Have the potential to be expanded to a larger audience? <br />
-                    <Badge bg="secondary">Presentation</Badge>{" "}
-                    Was the presentation clear and well spoken?
-                  </Card.Text>
-                </Card>
+              </Row>
+              <Row className="border p-0 m-0">
+                <Col lg={6} className="border p-0 m-0">
+                  <Card className="p-3 border-0 border-bottom rounded-0" style={{ height: "100%" }}>
+                    <Card.Title className="title-font px-3">Prizes</Card.Title>
+                    <Card.Text className="text-font p-3">
+                      <Row className="py-2 mb-2" style={{ borderRadius: "1em/1em", border:"2px solid #DEE2E6"}}>
+                        <Col sm={4}>
+                          <Badge bg="success">1st Place</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $200 Cash Value
+                          </span>{" "}
+                          <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Wolfram Award
+                          </span>
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">2nd Place</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $150 Cash Value
+                          </span>{" "}
+                          <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Wolfram Award
+                          </span>
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">3rd Place</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $100 Cash Value
+                          </span>{" "}
+                          <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Wolfram Award
+                          </span>
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">Honorable Mentions</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $50 Cash Value
+                          </span>{" "}
+                        </Col>
+                      </Row>
+
+                      <Row className="py-2 mb-2" style={{ borderRadius: "1em/1em", border: "2px solid #DEE2E6" }}>
+                        <Col sm={4}>
+                          <span className="badge" style={{ backgroundColor: "#198754", borderRadius: "2em/2em" }}>
+                            Wolfram Award
+                          </span>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Wolfram|One Personal Edition 1 Year
+                          </span>{" "}
+                          <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Wolfram|Alpha Pro 1 Year
+                          </span>
+                        </Col>
+                      </Row>
+
+                      <div>
+                        <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                          Per Team
+                        </span>{" "}
+                        <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                          Per Participant
+                        </span>
+                      </div>
+                      <br />
+                      Current Total Prizes Evaluation: $5000 <br />
+                      Additional Prizes TBD [Subject to change]
+                    </Card.Text>
+                  </Card>
                 </Col>
+                <Col lg={6} className="border p-0 m-0">
+                  <Card className="p-3 border-0 rounded-0" style={{ height: "100%" }}>
+                    <Card.Title className="title-font px-3">Judging</Card.Title>
+                    <Card.Text className="text-font p-3">
+                      <Row className="py-2 mb-2" style={{ borderRadius: "1em/1em", border: "2px solid #DEE2E6" }}>
+                        <Col sm={3}>
+                          <Badge bg="success">Uniqueness</Badge>
+                        </Col>
+                        <Col>
+                          Is the idea creative and innonative?
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={3}>
+                          <Badge bg="success">Design</Badge>
+                        </Col>
+                        <Col>
+                          Is the layout well planned?
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={3}>
+                          <Badge bg="success">Viability</Badge>
+                        </Col>
+                        <Col>
+                          Demonstrate a real solution to a real problem?
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={3}>
+                          <Badge bg="success">Impact</Badge>
+                        </Col>
+                        <Col>
+                          Can be adapted to a larger audience?
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={3}>
+                          <Badge bg="success">Presentation</Badge>
+                        </Col>
+                        <Col>
+                          Was the presentation clear and well spoken?
+                        </Col>
+                      </Row>
+                    </Card.Text>
+                  </Card>
+                </Col>
+              </Row>
             </Row>
           </Row>
         </Container>

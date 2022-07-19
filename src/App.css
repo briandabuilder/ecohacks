@@ -1,8 +1,8 @@
-html,body {
-    margin: 0px;
-    padding: 0px;
-    overflow: visible;
-    overflow-x: hidden; 
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  overflow-x: hidden;
 }
 
 .colored-section {
@@ -68,15 +68,19 @@ nav {
   font-size: 4rem;
 }
 
-a {
-  color: #fff;
+.normal-item {
   font-family: 'Amatic SC', cursive;
   font-size: 2.75rem;
-  position: relative;;
+  position: relative;
   text-decoration: none;
+  color: #90745E;
 }
 
-a:after {
+.normal-item:hover {
+  color: #90745E;
+}
+
+.normal-item:after {
   content: "";
   position: absolute;
   background-color: #90745E;
@@ -87,21 +91,12 @@ a:after {
   transition: 0.5s;
 }
 
-a:hover {
-  color: #90745E;
-}
-
-.normal-item {
-  color: #90745E;
-}
-
 .normal-item:hover:after {
   width: 100%;
 }
 
 .join-button {
   border: 2px solid #90745E;
-  color: #90745E;
 }
 
 /* NAVBAR END */
