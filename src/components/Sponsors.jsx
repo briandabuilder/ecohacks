@@ -13,7 +13,7 @@ function Sponsors() {
                 <img
                     src={require("../images/wolfram.png")}
                     alt="..."
-                    style={{height: "10em"}}
+                    style={{maxHeight: "10em", maxWidth: "30em"}}
                 />
             </FadeIn>
 
@@ -25,22 +25,34 @@ function Sponsors() {
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
                         alt="..."
-                        style={{height: "10em"}}
+                        style={{maxHeight: "10em", maxWidth: "30em"}}
                     />
                 </FadeIn>
             */}
 
-            {/*    <div className="m-1 my-5" style={{ color: "#CD7F32", fontFamily: "Amatic SC, cursive", fontSize: "4rem", textShadow: "0 0 25px #CD7F32" }}>
+          {/*    <div className="m-1 my-5" style={{ color: "#CD7F32", fontFamily: "Amatic SC, cursive", fontSize: "4rem", textShadow: "0 0 25px #CD7F32" }}>
                     Bronze Sponsors
                 </div>
                 <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                     <img
                         src="https://via.placeholder.com/200x200.png?text=TBD"
                         alt="..."
-                        style={{height: "10em"}}
+                        style={{maxHeight: "10em", maxWidth: "30em"}}
                     />
             </FadeIn>
             */}
+
+            <div className="m-1 my-5" style={{ color: "#A7E1A7", fontFamily: "Amatic SC, cursive", fontSize: "4rem", textShadow: "0 0 25px #A7E1A7" }}>
+                Partners
+            </div>
+            <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
+                <img
+                    src={require("../images/hackclub.png")}
+                    alt="..."
+                    style={{maxHeight: "10em", maxWidth: "30em"}}
+                />
+            </FadeIn>
+            
             </div>
             <span><br /></span>
             <span><br /></span>
