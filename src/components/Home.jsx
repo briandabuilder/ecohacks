@@ -3,6 +3,11 @@ import '../App.css';
 
 import { Carousel, Col, Row, Container } from 'react-bootstrap';
 
+import { BsFacebook } from "react-icons/bs";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+import { FaDiscord } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 function Home() {
   return (
     <div id="home" className="pb-5">
@@ -17,10 +22,27 @@ function Home() {
 
                   <Carousel.Caption id="headline" className="border" style={{color: "#fff", textShadow: "0 0 25px #FFF", margin:"auto", borderRadius: "1em/1em"}}>
                       <h3 className="title-font">Our Mission</h3>
-                      <p className="text-font px-3 pt-2">Through EcoHacks, we aim to connect an interest
+                      <p className="text-font px-3 pt-2 mb-2">Through EcoHacks, we aim to connect an interest
                           in saving the environment with coding for it.
                           Let's code with purpose!
                       </p>
+                      <div className="d-flex flex-row justify-content-around px-5">
+                          <a href="https://www.facebook.com/profile.php?id=100083192914818" target="_blank" style={{ fontSize: "1.8em" }}>
+                              <BsFacebook className="mx-1 zoom" style={{ color: "#fff" }} />
+                          </a>
+                          <a href="https://www.instagram.com/ecohacks22/" target="_blank" style={{ fontSize: "2em" }}>
+                              <AiFillInstagram className="mx-1 zoom" style={{ color: "#fff" }} />
+                          </a>
+                          <a href="https://discord.gg/RAeyhxrppn" target="_blank" style={{ fontSize: "2em" }}>
+                              <FaDiscord className="mx-1 zoom" style={{ color: "#fff" }} />
+                          </a>
+                          <a href="https://www.youtube.com/channel/UCGhHwq815eUXINHQLmjH9QQ" target="_blank" style={{ fontSize: "2em" }}>
+                              <AiFillYoutube className="mx-1 zoom" style={{ color: "#fff" }} />
+                          </a>
+                          <a href="mailto:eco.hacks.22@gmail.com" target="_blank" style={{fontSize:"2em"}}>
+                              <MdEmail className="mx-1 zoom" style={{ color: "#fff" }} />
+                          </a>
+                      </div>
                   </Carousel.Caption>
 
               </Carousel.Item>

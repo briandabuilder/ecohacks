@@ -13,20 +13,20 @@ function Footer() {
                     EcoHacks
                 </div>
                 <div className="d-flex flex-row justify-content-center">
-                    <a href="https://www.facebook.com/profile.php?id=100083192914818" style={{ fontSize: "1.8em" }}>
-                        <BsFacebook className="mx-1" style={{ color: "#90745E" }} />
+                    <a href="https://www.facebook.com/profile.php?id=100083192914818" target="_blank" style={{ fontSize: "1.8em" }}>
+                        <BsFacebook className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="https://www.instagram.com/ecohacks22/" style={{ fontSize: "2em" }}>
-                        <AiFillInstagram className="mx-1" style={{ color: "#90745E" }} />
+                    <a href="https://www.instagram.com/ecohacks22/" target="_blank" style={{ fontSize: "2em" }}>
+                        <AiFillInstagram className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="https://www.youtube.com/channel/UCGhHwq815eUXINHQLmjH9QQ" style={{ fontSize: "2em" }}>
-                        <AiFillYoutube className="mx-1" style={{ color: "#90745E" }} />
+                    <a href="https://discord.gg/RAeyhxrppn" target="_blank" style={{ fontSize: "2em" }}>
+                        <FaDiscord className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="https://discord.gg/RAeyhxrppn" style={{ fontSize: "2em" }}>
-                        <FaDiscord className="mx-1" style={{ color: "#90745E" }} />
+                    <a href="https://www.youtube.com/channel/UCGhHwq815eUXINHQLmjH9QQ" target="_blank" style={{ fontSize: "2em" }}>
+                        <AiFillYoutube className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="mailto:eco.hacks.22@gmail.com" style={{fontSize:"2em"}}>
-                        <MdEmail className="mx-1" style={{ color: "#90745E" }} />
+                    <a href="mailto:eco.hacks.22@gmail.com" target="_blank" style={{fontSize:"2em"}}>
+                        <MdEmail className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
                 </div>
                 <div className="mt-3" style={{ color: "#FFF", fontFamily: "Amatic SC, cursive", fontSize: "1.5rem" }}>

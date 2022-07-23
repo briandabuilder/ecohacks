@@ -23,7 +23,7 @@ function Navbar() {
 						<a href="#schedule" class="normal-item p-1 mx-3">Schedule</a>
 						<a href="#faq" class="normal-item p-1">FAQ</a>
 						<a href="#sponsors" class="normal-item p-1 mx-3">Sponsors</a>
-						<a href="https://docs.google.com/forms/d/1mnCf0pqTDSTQQx-X36CgLRPmkJywyLakiCK7GU5WaK0/edit" class="join-button normal-item px-1 mx-3">Join Us</a>
+						<a href="https://forms.gle/HKJTQSRCJ5hcS1288" target="_blank" class="join-button normal-item px-1 mx-3">Join Us</a>
 					</Nav>
 				</NavbarReact.Collapse>
 			</div>

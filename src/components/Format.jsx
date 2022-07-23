@@ -85,7 +85,16 @@ function Format() {
                         </Col>
                         <Col>
                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
-                            $50 Cash Value
+                            $50 Cash Value x2
+                          </span>{" "}
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">Raffles</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $25 AoPs Coupons x4
                           </span>{" "}
                         </Col>
                       </Row>
@@ -129,7 +138,7 @@ function Format() {
                           <Badge bg="success">Uniqueness</Badge>
                         </Col>
                         <Col>
-                          Is the idea creative and innonative?
+                          Is the idea creative and innovative?
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={3}>
