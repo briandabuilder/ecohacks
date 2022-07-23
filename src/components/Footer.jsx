@@ -19,7 +19,7 @@ function Footer() {
                     <a href="https://www.instagram.com/ecohacks22/" target="_blank" style={{ fontSize: "2em" }}>
                         <AiFillInstagram className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
-                    <a href="https://discord.gg/RAeyhxrppn" target="_blank" style={{ fontSize: "2em" }}>
+                    <a href="https://discord.gg/2EvZkYEeyk" target="_blank" style={{ fontSize: "2em" }}>
                         <FaDiscord className="mx-1 zoom" style={{ color: "#90745E" }} />
                     </a>
                     <a href="https://www.youtube.com/channel/UCGhHwq815eUXINHQLmjH9QQ" target="_blank" style={{ fontSize: "2em" }}>
