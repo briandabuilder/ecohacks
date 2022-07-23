@@ -25,81 +25,42 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
+	<!-- Google font start -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- GOOGLE FONTS -->
+    <!-- Google font end -->
 
-    <!-- CSS only -->
+    <!-- Bootstrap start -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- BOOTSTRAP -->
+    <!-- Bootstrap end -->
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-K48ZQFS4FQ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-K48ZQFS4FQ');
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	
     <title>EcoHacks</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+	<!-- Bootstrap start -->
     <script src="https://kit.fontawesome.com/5348d79d8b.js" crossorigin="anonymous"></script>
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
-   
-    <script>
-      var countDownDate = new Date("Sept 20, 2022 8:00:00").getTime();
-      var x = setInterval(function() {
-      
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-          
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-        if (days < 10) {
-          document.getElementById("days").innerHTML = "0" + days;
-        } else {
-          document.getElementById("days").innerHTML = days;
-        }
-
-        if (hours < 10) {
-          document.getElementById("hours").innerHTML = "0" + hours;
-        } else {
-          document.getElementById("hours").innerHTML = hours;
-        }
-
-        if (minutes < 10) {
-          document.getElementById("minutes").innerHTML = "0" + minutes;
-        } else {
-          document.getElementById("minutes").innerHTML = minutes;
-        }
-
-        if (seconds < 10) {
-          document.getElementById("seconds").innerHTML = "0" + seconds;
-        } else {
-          document.getElementById("seconds").innerHTML = seconds;
-        }
-
-
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-      </script>
-
+	<!-- Bootstrap end -->
+	
   </body>
 </html>
