@@ -12,7 +12,7 @@ function Sponsors() {
             <FadeIn className="d-flex flex-row flex-wrap justify-content-around mb-3">
                 <a href="https://www.wolfram.com/language/" target="_blank">
                     <img
-                        src={require("../images/wolfram.png")}
+                        src={require("../images/sponsor/wolfram.png")}
                         className="zoom"
                         alt="..."
                         style={{maxHeight: "10em", maxWidth: "30em"}}
@@ -28,7 +28,7 @@ function Sponsors() {
                 <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                     <a href="https://via.placeholder.com/200x200.png?text=TBD" target="_blank">
                         <img
-                            src={require("../images/wolfram.png")}
+                            src={require("../images/sponsor/wolfram.png")}
                             className="zoom"
                             alt="..."
                             style={{maxHeight: "10em", maxWidth: "30em"}}
@@ -44,7 +44,7 @@ function Sponsors() {
             <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                 <a href="https://artofproblemsolving.com/store" target="_blank">
                     <img
-                        src={require("../images/aops.png")}
+                        src={require("../images/sponsor/aops.png")}
                         className="zoom"
                         alt="..."
                         style={{maxHeight: "10em", maxWidth: "30em"}}
@@ -60,7 +60,7 @@ function Sponsors() {
             <FadeIn className="d-flex flex-row flex-wrap justify-content-center mb-3">
                 <a href="https://hackclub.com/" target="_blank">
                     <img
-                        src={require("../images/hackclub.png")}
+                        src={require("../images/sponsor/hackclub.png")}
                         className="zoom"
                         alt="..."
                         style={{maxHeight: "10em", maxWidth: "30em"}}

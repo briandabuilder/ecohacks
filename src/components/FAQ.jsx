@@ -31,7 +31,7 @@ function FAQ() {
             response: "Yes! The project you built is yours to keep. We will only have the permission to display your work and ideas on our website."
         }, {
             question: "Got more questions?",
-            response: "Feel free to contact us at eco.hacks.22@gmail.com! Better yet, join our [discord community](https://discord.gg/2EvZkYEeyk)!"
+            response: "Feel free to contact us at [eco.hacks.22@gmail.com](mailto:eco.hacks.22@gmail.com)! Better yet, join our [discord community](https://discord.gg/2EvZkYEeyk)!"
         }];
 
     return (

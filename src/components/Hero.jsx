@@ -8,7 +8,7 @@ import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-function Home() {
+function Hero() {
   return (
     <div id="home" className="pb-5">
           <Carousel id="carousel" style={{ backgroundColor: "#A7E1A7" }}>
@@ -106,4 +106,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;

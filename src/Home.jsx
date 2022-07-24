@@ -1,28 +1,22 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Hero from './components/Hero';
 import Features from './components/Features';
 import Format from './components/Format';
 import Countdown from './components/Countdown';
 import Sponsors from './components/Sponsors';
 import Schedule from './components/Schedule';
 import FAQ from './components/FAQ';
-import Footer from './components/Footer';
-import ScrollButton from './components/ScrollButton';
 
 function App() {
     return (
         <div className="App">
-            <Navbar />
-            <Home />
+            <Hero />
             <Features />
             <Format />
             <Countdown />
             <Schedule />
             <FAQ />
             <Sponsors />
-            <Footer />
-            <ScrollButton />
         </div>
     );
 }
