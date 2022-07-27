@@ -3,7 +3,7 @@ import '../App.css';
 
 import { Carousel, Col, Row, Container } from 'react-bootstrap';
 
-import { BsFacebook } from "react-icons/bs";
+import { SiDevpost } from "react-icons/si";
 import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -27,8 +27,8 @@ function Hero() {
                           Let's code with purpose!
                       </p>
                       <div className="d-flex flex-row justify-content-around px-5">
-                          <a href="https://www.facebook.com/profile.php?id=100083192914818" target="_blank" style={{ fontSize: "1.8em" }}>
-                              <BsFacebook className="mx-1 zoom" style={{ color: "#fff" }} />
+                          <a href="https://ecohacks.devpost.com/" target="_blank" style={{ fontSize: "1.8em", position: "relative", top: "3px" }}>
+                              <SiDevpost className="mx-1 zoom" style={{ color: "#fff" }} />
                           </a>
                           <a href="https://www.instagram.com/ecohacks22/" target="_blank" style={{ fontSize: "2em" }}>
                               <AiFillInstagram className="mx-1 zoom" style={{ color: "#fff" }} />
