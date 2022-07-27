@@ -45,12 +45,7 @@ function About() {
                     name: "Brian Da Cruz",
                     title: ["Officer"],
                     description: "Lorem Ipsum"
-                  }, {
-                    photo: "https://via.placeholder.com/200x200.png?text=EcoHacks",
-                    name: "Dr. Charlie Brucker",
-                    title: ["Guest Speaker"],
-                    description: "Lorem Ipsum"
-                  },
+                  }
                   ];
                   for (let arg in board) {
                     fields.push(
