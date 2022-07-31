@@ -1,10 +1,39 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
+import { Button, Card, Container, Row, Col, Badge } from "react-bootstrap";
 
 import FadeIn from "react-fade-in";
 
 function Sponsors() {
     return (
-        <div id="sponsors" className="my-5">
+      <div id="sponsors" className="my-5">
+
+            <section className="mt-2">
+              <Container>
+                <Card id="information" className="bg-gradient-gray-dark shadow-lg border-0">
+                  <div className="p-4">
+                    <a href="mailto:eco.hacks.22@gmail.com" style={{textDecoration:"none"}}>
+                      <Row className="align-items-center glass p-3">
+                        <Col lg="8">
+                            <h3 className="text-white">
+                              Sponsors/Partnerships
+                            </h3>
+                            <p className="text-font lead text-white mt-3">
+                              Interested in sponsoring? Questions? Get in touch!
+                            </p>
+                        </Col>
+                        <Col className="ml-lg-auto" lg="3">
+                            <div className="btn btn-outline-success">
+                              Contact Us
+                            </div>
+                        </Col>
+                      </Row>
+                    </a>
+                  </div>
+                </Card>
+              </Container>
+            </section>
+
             <div className="d-flex flex-column align-items-center mx-3">
             <div className="m-1 my-5" style={{ color: "#FFD700", fontFamily: "Amatic SC, cursive", fontSize: "4rem", textShadow: "0 0 25px #FFD700" }}>
                     Gold Sponsors

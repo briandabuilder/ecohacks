@@ -22,7 +22,7 @@ function Format() {
                 Hackathon Format
               </div>
             </Row>
-            <Row id="information" className="m-0 p-0">
+            <Row className="m-0 p-0">
               <Row className="border p-0 m-0">
                 <Card className="p-3 border-0 rounded-0" style={{height:"100%"}}>
                   <Card.Title className="title-font px-3">Rules</Card.Title>
