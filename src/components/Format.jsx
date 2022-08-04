@@ -27,7 +27,7 @@ function Format() {
                 <Card className="p-3 border-0 rounded-0" style={{height:"100%"}}>
                   <Card.Title className="title-font px-3">Rules</Card.Title>
                   <Card.Text className="text-font p-3">
-                    Our hackathon runs online from 9/3 - 9/5.
+                    Our hackathon runs online from 9/2 - 9/4.
                     Anyone age 13 and up who are interested in learning about coding and environmental issues are allowed to participate.
                     Each participant can form a team of 1 to 4 people.
                     Teams will be given a theme at the start of the hackathon, where
