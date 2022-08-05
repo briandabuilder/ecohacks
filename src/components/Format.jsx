@@ -85,7 +85,7 @@ function Format() {
                         </Col>
                         <Col>
                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
-                            $50 Cash Value x2
+                            $50 Cash Value x3
                           </span>{" "}
                         </Col>
                         <div className="w-100"></div>
@@ -133,7 +133,7 @@ function Format() {
                         </span>
                       </div>
                       <br />
-                      Current Total Prizes Evaluation: $9600 <br />
+                      Current Total Prizes Evaluation: $9650 <br />
                       Additional Prizes TBD [Subject to change]
                     </Card.Text>
                   </Card>
