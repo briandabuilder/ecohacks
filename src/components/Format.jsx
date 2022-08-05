@@ -133,7 +133,7 @@ function Format() {
                         </span>
                       </div>
                       <br />
-                      Current Total Prizes Evaluation: $9500 <br />
+                      Current Total Prizes Evaluation: $9600 <br />
                       Additional Prizes TBD [Subject to change]
                     </Card.Text>
                   </Card>
