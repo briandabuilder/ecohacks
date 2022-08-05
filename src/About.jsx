@@ -6,6 +6,32 @@ import FadeIn from "react-fade-in";
 function About() {
   return (
     <div className="my-5">
+      <section className="mb-3">
+        <Container>
+          <Card id="information" className="bg-gradient-gray-dark shadow-lg border-0">
+            <div className="p-4">
+              <a href="mailto:eco.hacks.22@gmail.com" style={{ textDecoration: "none" }}>
+                <Row className="align-items-center glass p-3">
+                  <Col lg="8">
+                    <h3 className="text-white">
+                      Join Our Team
+                    </h3>
+                    <p className="text-font lead text-white mt-3">
+                      Want to lead a workshop, be a guest speaker, take on a judge role, or just help out in general? PVSA awards too!
+                    </p>
+                  </Col>
+                  <Col className="ml-lg-auto" lg="3">
+                    <div className="btn btn-outline-success">
+                      Contact Us
+                    </div>
+                  </Col>
+                </Row>
+              </a>
+            </div>
+          </Card>
+        </Container>
+      </section>
+
       <section className="section">
         <Container>
           <Card className="card-profile shadow mt--300">
@@ -14,11 +40,8 @@ function About() {
               <Row className="justify-content-center text-center mb-4 pt-4">
                 <Col lg="8">
                   <h2 className="display-3 title-font" style={{fontSize:"4em"}}>Our Team</h2>
-                  <a href="mailto:eco.hacks.22@gmail.com" className="lead text-muted text-font">
-                    Want to join our team?
-                    <br />
-                    <br />
-                  </a>
+                  
+                  <br />
                 </Col>
               </Row>
               

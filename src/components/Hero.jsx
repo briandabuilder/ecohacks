@@ -23,7 +23,7 @@ function Hero() {
                   <Carousel.Caption id="headline" className="border" style={{color: "#fff", textShadow: "0 0 25px #FFF", margin:"auto", borderRadius: "1em/1em"}}>
                       <h3 className="title-font">Our Mission</h3>
                       <p className="text-font px-3 pt-2 mb-2">Through EcoHacks, we aim to connect an interest
-                          in saving the environment with coding for it.
+                          in saving the environment with scoding for it.
                           Let's code with purpose!
                       </p>
                       <div className="d-flex flex-row justify-content-around px-5">

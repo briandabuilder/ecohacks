@@ -97,6 +97,15 @@ function Format() {
                             $25 AoPs Coupons x4
                           </span>{" "}
                         </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">Participants</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Echo3D Business Plan 1 Month
+                          </span>{" "}
+                        </Col>
                       </Row>
 
                       <Row className="py-2 mb-2" style={{ borderRadius: "1em/1em", border: "2px solid #DEE2E6" }}>
@@ -124,7 +133,7 @@ function Format() {
                         </span>
                       </div>
                       <br />
-                      Current Total Prizes Evaluation: $5000 <br />
+                      Current Total Prizes Evaluation: $9500 <br />
                       Additional Prizes TBD [Subject to change]
                     </Card.Text>
                   </Card>

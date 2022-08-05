@@ -228,6 +228,12 @@ html, body {
 .zoom:hover {
   transform: scale(1.2);
 }
+
+.sponsor {
+  max-height: 8em;
+  max-width: 24em;
+}
+
 /* SPONSORSHIP END */
 
 /* FOOTER START */
