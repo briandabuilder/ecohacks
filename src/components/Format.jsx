@@ -52,11 +52,8 @@ function Format() {
                             $200 Cash Value
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                            Wolfram Award
+                            Winner Package
                           </span>{" "}
-                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                            Taskade Unlimited 5 Years
-                          </span>
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={4}>
@@ -67,11 +64,8 @@ function Format() {
                             $150 Cash Value
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                            Wolfram Award
+                            Winner Package
                           </span>{" "}
-                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                            Taskade Unlimited 5 Years
-                          </span>
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={4}>
@@ -82,11 +76,8 @@ function Format() {
                             $100 Cash Value
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                            Wolfram Award
+                            Winner Package
                           </span>{" "}
-                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
-                              Taskade Unlimited 5 Years
-                            </span>
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={4}>
@@ -123,7 +114,7 @@ function Format() {
                       <Row className="py-2 mb-2" style={{ borderRadius: "1em/1em", border: "2px solid #DEE2E6" }}>
                         <Col sm={4}>
                           <span className="badge" style={{ backgroundColor: "#198754", borderRadius: "2em/2em" }}>
-                            Wolfram Award
+                            Winner Package
                           </span>
                         </Col>
                         <Col>
@@ -132,6 +123,9 @@ function Format() {
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
                             Wolfram|Alpha Pro 1 Year
+                          </span>{" "}
+                          <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Taskade Unlimited 5 Years
                           </span>
                         </Col>
                       </Row>
