@@ -95,6 +95,13 @@ function Sponsors() {
                         alt="..."
                     />
                 </a>
+                <a href="https://www.taskade.com/" target="_blank">
+                    <img
+                        src={require("../images/sponsor/taskade.png")}
+                        className="zoom sponsor mb-5"
+                        alt="..."
+                    />
+                </a>
                 <a href="https://artofproblemsolving.com/store" target="_blank">
                     <img
                         src={require("../images/sponsor/aops.png")}

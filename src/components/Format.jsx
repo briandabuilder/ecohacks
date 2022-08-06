@@ -53,6 +53,9 @@ function Format() {
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
                             Wolfram Award
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Taskade Unlimited 5 Years
                           </span>
                         </Col>
                         <div className="w-100"></div>
@@ -65,6 +68,9 @@ function Format() {
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
                             Wolfram Award
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Taskade Unlimited 5 Years
                           </span>
                         </Col>
                         <div className="w-100"></div>
@@ -77,7 +83,10 @@ function Format() {
                           </span>{" "}
                           <span className="badge badge-pill" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
                             Wolfram Award
-                          </span>
+                          </span>{" "}
+                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                              Taskade Unlimited 5 Years
+                            </span>
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={4}>
@@ -104,6 +113,9 @@ function Format() {
                         <Col>
                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
                             Echo3D Business Plan 1 Month
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Taskade Unlimited 1 Year
                           </span>{" "}
                         </Col>
                       </Row>
@@ -133,7 +145,7 @@ function Format() {
                         </span>
                       </div>
                       <br />
-                      Current Total Prizes Evaluation: $9650 <br />
+                      Current Total Prizes Evaluation: $16,250 <br />
                       Additional Prizes TBD [Subject to change]
                     </Card.Text>
                   </Card>
