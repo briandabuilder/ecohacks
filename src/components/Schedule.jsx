@@ -25,7 +25,7 @@ function Schedule() {
                     description: "A talk about empowering Women in STEM as well as walking through the journey of founding her two startups.",
                     time: "9/4 10:00 am - 11:00 am"
                 }, {
-                    title: "Guest Speaker: Dr. Charlie Brucker, PhD in Computer Science from Cornell University",
+                    title: "Guest Speaker: Dr. Charlie Brucker, PhD in Engineering Physics from Cornell University",
                     description: "Countering global warming and sea level rise. Pursuing innovative and technological fixes to save the environment.",
                     time: "9/4 12:30 pm - 1:30 pm"
                 }, {
