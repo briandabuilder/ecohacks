@@ -88,14 +88,6 @@ function Sponsors() {
 
                     />
                 </a>
-                <a href="https://desmos.brilliantmade.com/" target="_blank">
-                    <img
-                        src={require("../images/sponsor/desmos.png")}
-                        className="zoom sponsor mb-5"
-                        alt="..."
-
-                    />
-                </a>
                 <a href="https://www.livingcarbon.com/" target="_blank">
                   <img
                     src={require("../images/sponsor/living-carbon.png")}
