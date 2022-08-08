@@ -90,11 +90,50 @@ function Format() {
                         </Col>
                         <div className="w-100"></div>
                         <Col sm={4}>
+                          <Badge bg="success">Best Covid-19 Hack</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $150 Cash Value
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Living Carbon Hoodies & Cap
+                          </span>{" "}
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">Best Women Hack</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $150 Cash Value
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Living Carbon Hoodies & Cap
+                          </span>{" "}
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
+                          <Badge bg="success">Best Beginner Hack</Badge>
+                        </Col>
+                        <Col>
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            $100 Cash Value
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "2em/2em" }}>
+                            Living Carbon Hoodies & Cap
+                          </span>{" "}
+                        </Col>
+                        <div className="w-100"></div>
+                        <Col sm={4}>
                           <Badge bg="success">Raffles</Badge>
                         </Col>
                         <Col>
                           <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
                             $25 AoPs Coupons x4
+                          </span>{" "}
+                          <span className="badge" style={{ backgroundColor: "#65bf63", borderRadius: "0em/0em" }}>
+                            Desmos Swag Pack
                           </span>{" "}
                         </Col>
                         <div className="w-100"></div>
@@ -139,7 +178,7 @@ function Format() {
                         </span>
                       </div>
                       <br />
-                      Current Total Prizes Evaluation: $16,250 <br />
+                      Current Total Prizes Evaluation: $18,335 <br />
                       Additional Prizes TBD [Subject to change]
                     </Card.Text>
                   </Card>

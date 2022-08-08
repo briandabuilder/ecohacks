@@ -79,7 +79,7 @@ function Sponsors() {
             <div className="m-1 my-5" style={{ color: "#6E6865", fontFamily: "Amatic SC, cursive", fontSize: "4rem", textShadow: "0 0 25px #6E6865" }}>
                General Sponsors
             </div>
-            <FadeIn className="d-flex flex-column justify-content-center mb-3">
+            <FadeIn className="d-flex flex-column justify-content-center align-items-center mb-3">
                 <a href="https://www.wolfram.com/language/" target="_blank">
                     <img
                         src={require("../images/sponsor/wolfram.png")}
@@ -88,12 +88,35 @@ function Sponsors() {
 
                     />
                 </a>
+                <a href="https://desmos.brilliantmade.com/" target="_blank">
+                    <img
+                        src={require("../images/sponsor/desmos.png")}
+                        className="zoom sponsor mb-5"
+                        alt="..."
+
+                    />
+                </a>
+                <a href="https://www.livingcarbon.com/" target="_blank">
+                  <img
+                    src={require("../images/sponsor/living-carbon.png")}
+                    className="zoom sponsor mb-5"
+                    alt="..."
+
+                  />
+                </a>
                 <a href="https://console.echo3d.co/#/auth/register-promo?code=EcoHacks" target="_blank">
                     <img
                         src={require("../images/sponsor/echo3d.png")}
                         className="zoom sponsor mb-5"
                         alt="..."
                     />
+                </a>
+                <a href="https://interviewbuddy.in/" target="_blank">
+                  <img
+                    src={require("../images/sponsor/interview-buddy.png")}
+                    className="zoom sponsor mb-5"
+                    alt="..."
+                  />
                 </a>
                 <a href="https://www.taskade.com/" target="_blank">
                     <img
