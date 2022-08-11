@@ -1,13 +1,70 @@
-# Welcome to EcoHack!
+# Getting Started with Create React App
 
-Who are we? EcoHacks is an ONLINE hackathon that aims to find sustainable solutions to some of the world’s greatest environmental challenges. Ten million hectares of forest are lost every year. Global temperatures are expected to rise 1.5 degrees in the next two decades and anywhere from 3 to 12 degrees by 2100. One-third of coral reefs have died off and over 12,000 species are threatened with extinction. As the growing epidemic of environmental issues, especially those exacerbated by the COVID-19 pandemic, worsens, we are in need of the next generation of developers to help us find innovative ideas to tackle these challenges.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Whether you have no experience or 10+ years of experience coding, we hope that you all can join us in our event. Our hackathon runs from 9/3 - 9/5, where participants will be able to collaborate and meet new people, create original projects, share innovative ideas, attend various computer science related workshops, and guest speaker events! Teams of up to 4 people are allowed and no code can be written prior to the event. Check out are website below!
+## Available Scripts
 
-Devpost Link: https://ecohacks.devpost.com/ <br />
-Website Link: https://www.ecohacks.net/ <br />
-Discord Link: https://discord.gg/wHNVxS57KG <br />
-Questions? Email us at: eco.hacks.22@gmail.com <br />
-Don't have a team yet? Form a team in our discord server! <br />
-Be sure to register by August 28th 11:59 PM PDT <br />
-We are excited to have you join our 3 day hackathon from September 3-5! 
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
