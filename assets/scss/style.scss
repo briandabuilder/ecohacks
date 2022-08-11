@@ -1,0 +1,26 @@
+// Developed by BootstrapDash (bootstrapdash.com).
+
+// Custom vaiables and fonts
+@import "../vendors/bootstrap/scss/functions";
+@import "../vendors/bootstrap/scss/variables";
+@import "../vendors/bootstrap/scss/mixins";
+
+@import "./components/variables";
+@import "./components/font";
+
+// Bootstrap main file
+@import "../vendors/bootstrap/scss/bootstrap.scss";
+@import "./components/typography";
+@import "./components/badge";
+@import "./components/breadcrumbs";
+@import "./components/buttons";
+@import "./components/card";
+@import "./components/carousel";
+@import "./components/dropdown";
+@import "./components/footer";
+@import "./components/forms";
+@import "./components/navbar";
+
+// Page styles
+@import "./components/landing-page";
+@import "./components/blog"

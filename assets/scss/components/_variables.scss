@@ -1,0 +1,104 @@
+// Color system
+$gray: #989898;
+$black: #000000;
+$white: #ffffff;
+
+$colors: (
+    "gray": $gray
+);
+
+$theme-colors: (
+    "primary":    #6206a8,
+    "secondary":  #f5f6f8,
+    "info":       #0684fe,
+    "success":    #34ad80,
+    "warning":    #f7b731,
+    "danger":     #fe3f3e,
+    "dark":       #3a3a3a
+);
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:         $black;
+$yiq-text-light:        $white;
+
+$enable-caret: false;
+
+// Spacing additional
+
+$spacers: (
+    20px: 20px,
+    30px: 30px,
+    35px: 35px,
+    40px: 40px
+);
+
+// Border radius;
+
+$border-radius: 0.25rem;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:               $white;
+$body-color:            $black;
+
+$border-color:       #f0f0f0;
+
+$box-shadow: 0 2px 30px 0 rgba(207, 207, 207, 0.5);
+
+//Navbar
+
+$navbar-padding-x: 1rem;
+$navbar-padding-y: 1rem;
+$navbar-light-color: $black;
+$navbar-nav-link-padding-x: 0.937rem;
+$navbar-nav-link-padding-y: 0.5625rem;
+
+// Typography
+
+$font-family-base:      'DM Sans';
+
+$font-weight-regular:  400;
+$font-weight-medium: 500;
+$font-weight-semibold:  600;
+$font-weight-bold:  700;
+
+$font-weight-base:      $font-weight-regular;
+
+$h1-font-size:          2.5rem;
+$h2-font-size:          2rem;
+$h3-font-size:          1.75rem;
+$h4-font-size:          1.5rem;
+$h5-font-size:          1.25rem;
+$h6-font-size:          1rem;
+
+$headings-font-weight:  $font-weight-bold;
+
+$headings-line-height: 1.5;
+
+$text-muted : #77838f;
+
+// Forms
+
+$input-padding-y:                       1rem;
+$input-padding-x:                       1.062rem;
+$input-font-size:                       0.75rem;
+$input-font-weight:                     $font-weight-bold;
+$input-line-height:                     1.33;
+
+$input-disabled-bg:                     #f1f1f1;
+
+$input-color:                           $gray;
+$input-border-color:                    #d9dfe7;
+
+$input-border-width:                    1px;
+$input-height-border:                   $input-border-width * 2;
+$input-height:                          add($input-line-height * 1em, add($input-padding-y * 2, $input-height-border, false));
+
+// Tabs
+
+$nav-tabs-border-color: $border-color;
+
+$nav-tabs-border-radius: 0;
+

@@ -1,0 +1,5 @@
+.badge {
+    font-size: 12px;
+    @extend .font-os;
+    font-weight: $font-weight-semibold;
+}

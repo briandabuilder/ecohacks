@@ -1,0 +1,26 @@
+.foi-breadcrumb {
+    background-color: transparent;
+    padding: 0;
+
+    a {
+        color: inherit;
+    }
+
+    .breadcrumb-item {
+        font-size: 14px;
+
+        &.active {
+            color: inherit;
+        }
+        
+        + .breadcrumb-item {
+            padding-left: 20px;
+
+            &::before {
+                content: ">";
+                color: inherit;
+                padding-right: 20px;
+            }
+        }
+    }
+}

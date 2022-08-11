@@ -1,0 +1,42 @@
+.foi-navbar {
+
+    .navbar-nav {
+        .nav-link {
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: $font-weight-medium;
+            color: $black;
+
+            @include hover-focus {
+                color: rgba($black, 0.8);
+            }
+        }
+    }
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.privay-policy-nav {
+    flex-direction: column;
+    position: sticky;
+    top: 50px;
+
+    @media (max-width: 767px){
+        margin-bottom: 24px;;
+    }
+
+    .nav-link{
+        font-size: 14px;
+        font-weight: $font-weight-bold;
+        line-height: 2.57;
+        padding: 0;
+        color: $black;
+
+        @include hover-focus {
+            text-decoration: none;
+            color: rgba($black , 0.69);
+        }
+    }
+}

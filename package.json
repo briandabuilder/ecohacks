@@ -1,47 +1,37 @@
 {
-  "name": "ecohacks",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "^18.1.0",
-    "react-fade-in": "^2.0.1",
-    "react-icons": "^4.4.0",
-    "react-markdown": "^8.0.3",
-    "react-router-dom": "^6.3.0",
-    "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
-    "react-vertical-timeline-component": "^3.5.2",
-    "styled-components": "^5.3.5",
-    "uuid": "^8.3.2",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "EcoHacks",
+    "version": "1.0.0",
+    "description": "Who are we? EcoHacks is an ONLINE hackathon that aims to find sustainable solutions to some of the world’s greatest environmental challenges. Whether you have no experience or 10+ years of experience coding, we hope that you all can join us in our event. Our hackathon runs from 9/2 - 9/4, where participants will be able to collaborate and meet new people, create original projects, share innovative ideas, attend various computer science related workshops, and guest speaker events! Teams of up to 4 people are allowed and no code can be written prior to the event.",
+    "main": "index.html",
+    "scripts": {
+        "start": "gulp watch",
+        "vendors": "gulp buildVendors",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "bootstrap4",
+        "lead-ui",
+        "design-kit",
+        "ui-kit",
+        "lead-ui-kit",
+        "lead-bs4-ui-kit"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "author": "Bootstrapdash",
+    "license": "Bootstrapdash Licence<https://www.BootstrapDash.com/license/>",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "node-sass": "^4.13.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.13.0",
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.1"
+    }
 }

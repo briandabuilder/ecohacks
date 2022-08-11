@@ -1,0 +1,28 @@
+.font-weight-medium {
+    font-weight: $font-weight-medium;
+}
+
+.font-weight-semibold {
+    font-weight: $font-weight-semibold;
+}
+
+.font-os {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.33;
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.page-about {
+    p {
+        font-size: 18px;
+        line-height: 1.56;
+        color: theme-color(dark);
+        margin-bottom: 45px;
+    }
+}

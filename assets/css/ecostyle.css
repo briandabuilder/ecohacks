@@ -1,0 +1,11 @@
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.sponsor {
+    width: 300px;
+}

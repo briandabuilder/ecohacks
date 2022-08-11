@@ -1,0 +1,57 @@
+.contact-form-wrapper {
+    margin-bottom: 120px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+
+    label {
+        margin-bottom: 9px;
+        color: theme-color(dark);
+        font-weight: $font-weight-bold;
+        line-height: 1.75;
+    }
+}
+
+.form-control {
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #e0e0e0;
+    padding: 13px 29px;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #9e9fa1;
+    font-weight: $font-weight-normal;
+}
+
+.form-footer-text {
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    left: 1.5;
+}
+
+.form-actions-wrapper {
+    margin-bottom: 31px;
+
+    .form-check-input {
+        margin-top: 0.6rem;
+    }
+}
+
+.form-check-label, .forgot-password-link {
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    line-height: 2;
+    color: theme-color(dark);
+    margin-bottom: 0;
+}
+
+.forgot-password-link {
+    @include hover-focus {
+        color: $black;
+    }
+}
+
+.btn-auth-submit {
+    margin-bottom: 22px;
+    padding: 16px 28px;
+}

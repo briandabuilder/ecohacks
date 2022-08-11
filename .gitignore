@@ -1,2 +1,4 @@
-node_modules/
+node_modules
+.jshintrc
 .DS_Store
+.jsbeautifyrc

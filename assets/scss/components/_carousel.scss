@@ -1,0 +1,26 @@
+.landing-client-carousel {
+
+    .clients-logo {
+        width: 116px;
+        height: 61px;
+        margin: 7.5px;
+        border: 0.5px solid #cdcecf;
+        border-radius: 0.25rem;
+        padding: 20px 25px;
+    }
+
+    .carousel-indicators {
+        position: static;
+
+        li {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #cdcecf;
+
+            &.active {
+                background-color: theme-color(primary);
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.foi-footer {
+    padding-top: 150px;
+    padding-bottom: 110px;
+    background-color: $white;
+    background-image: url(../images/Footer_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-content {
+        padding-bottom: 34px;
+        border-bottom: 1px solid rgba($border-color, 0.39);
+    }
+
+    .footer-widget-area {
+        padding-top: 70px;
+
+        p {
+            font-size: 15px;
+            @extend .font-os;
+            font-weight: $font-weight-semibold;
+            color: #fefefe;
+        }
+    }
+
+    .nav-link {
+        font-size: 15px;
+        line-height: 2.33;
+        @extend .font-os;
+        font-weight: $font-weight-semibold;
+        color: #fefefe;
+        padding: 0;
+    }
+
+    .social-menu {
+        a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}
