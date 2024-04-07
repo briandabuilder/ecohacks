@@ -1,4 +1,4 @@
-# Welcome to EcoHack!
+# Welcome to EcoHacks!
 
 Who are we? EcoHacks is an ONLINE hackathon that aims to find sustainable solutions to some of the world’s greatest environmental challenges. Ten million hectares of forest are lost every year. Global temperatures are expected to rise 1.5 degrees in the next two decades and anywhere from 3 to 12 degrees by 2100. One-third of coral reefs have died off and over 12,000 species are threatened with extinction. As the growing epidemic of environmental issues, especially those exacerbated by the COVID-19 pandemic, worsens, we are in need of the next generation of developers to help us find innovative ideas to tackle these challenges.
 
